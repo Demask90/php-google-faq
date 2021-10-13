@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h2,
+h3 {
+    color: grey;
+    font-weight: 500;
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+header {
+    padding: 10px 20px;
+}
+
+.nav-menu {
+    border-bottom: 1px solid lightgray;
+    padding: 0;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 23px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+}
+
+header ul li a.active {
+    color: rgb(30, 104, 215);
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgb(30, 104, 215);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .logo-text {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: grey;
+    margin-left: 5px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.my-30 {
+    margin: 30px auto;
+}
+
+.paragraph {
+    line-height: 1.7em;
+    color: darkgrey;
+    font-weight: 400;
+}
+
+ol {
+    list-style-type: decimal;
+    padding: 0 0 0 1em;
+    margin: 0;
+}
+
+ol>li {
+    padding-left: 16px;
+}
+
+li>ol {
+    list-style-type: lower-alpha;
+    padding-left: 30px;
+}
+
